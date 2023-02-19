@@ -3,7 +3,7 @@ const router=express()
 const {createStudent, getStudentById, deleteStudentById, updateStudentById, getAllStudents}=require("../controllers/student")
 
 
-
+// routes
 router.post("/student",createStudent)
 router.get("/student",getAllStudents)
 router.get("/student/:id",getStudentById)
