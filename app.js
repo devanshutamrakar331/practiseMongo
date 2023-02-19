@@ -8,7 +8,6 @@ const teacherRouter = require("./routes/teacher");
 //middlewares
 app.use(express.json());
 
-//user made middlewares
 app.use(studentRouter);
 app.use(teacherRouter);
 
